@@ -5,12 +5,12 @@
   --grey-700: hsl(0, 0%, 20%);
 
   --accent-clr: hsl(75, 94%, 57%);
-  --text-clr: hsl(0, 0%, 57%);
+  --text-clr: hsl(0, 0%, 100%);
 
   /* Typography */
   --line-height: 1.5;
   --letter-spacing: 0;
-  --font-family: 'Inter', sans-serif;
+  --font-family: "Inter", sans-serif;
   --font-size-text: 0.875rem;
   --font-size-headings: 1.5rem;
 
@@ -27,12 +27,12 @@
   --spacing-500: 2.5rem;
 }
 
-@font-face {
+ @font-face {
   font-display: swap; 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/fonts/inter-regular-400.woff2') format('woff2'); 
+  src: url('../assets/fonts/inter-regular-400.woff2') format('woff2'); 
 }
 
 @font-face {
@@ -40,7 +40,7 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
-  src: url('./assets/fonts/inter-600.woff2') format('woff2'); 
+  src: url('../assets/fonts/inter-600.woff2') format('woff2'); 
 }
 
 @font-face {
@@ -48,5 +48,5 @@
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  src: url('./assets/fonts/inter-700.woff2') format('woff2'); 
-}
+  src: url('../assets/fonts/inter-700.woff2') format('woff2'); 
+} 
