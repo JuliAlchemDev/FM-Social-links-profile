@@ -29,6 +29,12 @@ body {
   transition: transform 0.5s ease-in-out;
   animation: fadeIn 0.6s ease-in-out;
 }
+@media (prefers-reduced-motion: reduce){
+  * {
+  transition: none;
+  }
+}
+
 .profile-card__picture {
   border-radius: 50%;
 }
@@ -82,14 +88,14 @@ body {
   bottom: 10%;
   left: 50%;
   transform: translate(-50%);
-  font-size: 11px;
+  font-size:  0.69rem;
   text-align: center;
 }
 .attribution a {
   color: var(--accent-clr);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48rem) {
   .profile-card {
     width: 24rem;
     transform: scale(1);
